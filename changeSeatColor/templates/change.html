@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/chgStyle.css' %}">  
+    
+</head>
+<body>
+    <div class="color_wrap">
+        <input type="color" class="color" value="#FFFF00">
+        <div class="color_blocks">
+        <div class="block red"></div>
+        <div class="block blue"></div>
+        <div class="block green"></div>
+        <div class="block grey"></div>
+
+        </div>
+    </div>
+    
+    <div class="image_wrap">
+        <img src="/static/images/carr_bg.png" alt="">
+        <img class="car" src="/static/images/carr_transparan.png" alt="">
+
+    </div>
+
+
+
+    
+<script type="text/javascript" src="{% static 'scripts/change.js' %}"></script>
+</body>
+</html>
