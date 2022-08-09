@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/change.css' %}">  
+    <link rel="stylesheet" href="{% static 'front_end/css/chgStyle.css' %}">  
     
 </head>
 <body>
@@ -13,20 +13,24 @@
         <div class="block red"></div>
         <div class="block blue"></div>
         <div class="block green"></div>
-        <div class="block grey"></div>
+        <div class="block brown"></div>
+        <div class="block yellow"></div>
+        <div class="block orange"></div>
+        <div class="block pink"></div>
+        <div class="block purple"></div>
+        
 
         </div>
     </div>
     
-    <div class="image_wrap">
-        <img src="/static/images/carr_bg.png" alt="">
-        <img class="car" src="/static/images/carr_transparan.png" alt="">
-
+    <div class="image_wrap" style="display:flex; justify-content:center;">
+        <img src="/static/front_end/images/carr_bg.png" alt="">
+        <img class="car" src="/static/front_end/images/carr_transparan.png" alt="">
+        <img class="car2"  src="/static/front_end/images/head_bg.png" alt="">
+        <img class="head_car" src="/static/front_end/images/head_transparent.png" alt="">
     </div>
+    <button>Head</button>
 
-
-
-    
-<script type="text/javascript" src="{% static 'scripts/change.js' %}"></script>
+<script type="text/javascript" src="{% static 'front_end/scripts/change.js' %}"></script>
 </body>
 </html>
