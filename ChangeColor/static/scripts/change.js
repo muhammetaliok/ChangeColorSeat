@@ -8,7 +8,7 @@ let block = document.querySelectorAll(".block");
     block[i].addEventListener('click', ()=> {
       let colorBlock = window.getComputedStyle(block[i]).backgroundColor;
       car.style.backgroundColor = colorBlock;
-      head_car.backgroundColor = colorBlock;
+      head_car.style.backgroundColor = colorBlock;
     })
     
 }
