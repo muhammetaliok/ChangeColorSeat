@@ -1,89 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    overflow: hidden;
+img.color-img {
+	position: relative
 }
 
-img {
-    position: absolute;
-    width: 50%;
+.img_bottom {
+    z-index: 0;
 }
 
-.img_wrap {
-    width: 30%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.car {
-    mix-blend-mode: hue;
-}
- 
-.car2,.head_car{
-    width: 101px;
-    margin: 3px 0 0 45px;
-    mix-blend-mode: hue;
-
-}
-
-button {
-    padding: 7px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
-.color_wrap {
-    margin-bottom: 150px;
-    width: 100%;
-    height: 50px;
-    display: flex;
-}
-
-.color{
-    margin: 0 40px;
-
-}
-.color_blocks {
-    display: flex;
-}
-
-.block {
-    width: 20px;
-    height: 20px;
-    border-radius: 2px;
-    margin: 0 10px;
-}
-
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-}
-.green {
-    background-color: green;
-}
-
-.brown {
-    background-color: rgb(156, 18, 18);
-}
-.yellow {
-    background-color: rgb(255, 255, 98);
-}
-.orange {
-    background-color: rgb(255, 173, 20);
-}
-.pink {
-    background-color: pink;
-}
-.purple {
-    background-color: purple;
+.ortaImg1 {
+    z-index: 1;
 }
