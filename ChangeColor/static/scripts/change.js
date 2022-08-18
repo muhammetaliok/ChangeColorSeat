@@ -48,18 +48,15 @@ function colorImage(imgId,hexaColor) {
   imgElement.src = canvas.toDataURL();
 }
 
-// changing color of capsule on select event
+
 document.getElementById('sel_top').onchange = function(){
   colorImage('img_top', this.value);
 }
-document.getElementById('sel_mid').onchange = function(){
-  colorImage('img_mid', this.value);
+document.getElementById('ortaResim').onclick = function(){
+  document.getElementById('img_mid').style.backgroundImage = "url('https://i.pinimg.com/736x/c8/83/5a/c8835a6e6574327ef5b033a66098ecce.jpg')"
+
 }
 document.getElementById('ilkResim').onclick = function(){
   document.getElementById('img_bottom').style.backgroundImage = "url('https://www.gezginfoto.com.tr/images/makaleler/etkili_manzara_11.jpg')"
 }
-
-
-  
-//})
 
