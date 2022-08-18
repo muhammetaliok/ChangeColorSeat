@@ -1,11 +1,12 @@
-img.color-img {
-	position: relative
+.color-img {
+	position: relative;
+    height: 300px;
 }
 
-.img_bottom {
-    z-index: 0;
-}
 
-.ortaImg1 {
-    z-index: 1;
+.ortaImg {
+    float: left;
+}
+.ikiImg {
+    float: left;
 }
