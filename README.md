@@ -1,2 +1,2 @@
 # ChangeColorSeat
-Change color of image with color picker
+Change spesific part of image figure using Canvas with Javascript.
